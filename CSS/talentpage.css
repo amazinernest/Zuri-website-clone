@@ -319,8 +319,9 @@ footer .container {
   }
 
   nav,
-  .hero .countries_impact,
+  .countries_impact,
   .skills,
+  .hero .container,
   .cards {
     padding: 50px;
   }
