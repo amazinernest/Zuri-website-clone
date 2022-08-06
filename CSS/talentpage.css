@@ -332,14 +332,21 @@ footer .container {
     grid-template-columns: 1fr;
   }
 
-  h1 {
+  .country_flag {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 250px;
+  }
+
+  h1,
+  .countries_impact h2 {
     font-size: 2rem;
-    line-height: 1rem;
-    width: 200px;
+    line-height: 2rem;
+    width: 250px;
   }
 
   .logonav {
-    width: 100px;
+    width: 80px;
   }
   .skills h2 br {
     display: none;
