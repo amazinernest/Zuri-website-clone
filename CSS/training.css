@@ -98,6 +98,10 @@ div .btn {
   mix-blend-mode: darken;
 }
 
+.ingressivelogo {
+  mix-blend-mode: darken;
+}
+
 span {
   color: #e7332b;
   font-size: 1.125rem;
@@ -699,6 +703,10 @@ footer .container,
     display: none;
   }
 
+  h1 br {
+    display: none;
+  }
+
   .hero .container,
   .three_elements {
     flex-direction: column;
@@ -709,10 +717,21 @@ footer .container,
   .getting_started .container,
   .course_container,
   .structure_holder,
-  .feature_card .container {
+  .feature_card .container,
+  .gs_btn,
+  footer .container {
     display: grid;
     grid-template-columns: 1fr;
     padding: 0 20px;
+  }
+
+  .cta_box {
+    padding: 20px;
+  }
+
+  footer .copyright {
+    flex-direction: column-reverse;
+    gap: 10px;
   }
 
   .male_hero,
@@ -730,5 +749,17 @@ footer .container,
   }
   .hero br {
     display: none;
+  }
+
+  .three_elements h4 {
+    display: none;
+  }
+
+  .section6 .container {
+    padding: 0 20px;
+  }
+
+  .mainlg {
+    width: 180px;
   }
 }
